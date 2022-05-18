@@ -32,13 +32,12 @@ class PostList extends Component{
                                                     <p><b>Location:</b> {program.location.title} - {program.location.address} - {program.location.postcode}</p>
                                                     <p><b>Time:</b> {program.start_time} - {program.end_time}</p>
                                                     <p className="card-text"><b>Room: </b>{program.room}</p>
-                                                    <div><a href={program.location.website} target="_blank" rel="noreferrer"><b>Access the Website</b></a></div>
-                                                    
+                                                    <div><a href={program.location.website} target="_blank" rel="noreferrer"><b>Access the Website</b></a></div> 
                                                 </div>
-                                                </div>
-                                                <div className='col-5'>
+                                            </div>
+                                            <div className='col-5'>
                                                 <img className='img-fluid rounded' src={program.location.cover_image} alt={program.location.title}></img>
-                                                </div>
+                                            </div>
                                         </div>
                                                 </Accordion.Body>
                                     </Accordion.Item>
