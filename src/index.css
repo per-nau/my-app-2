@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.accordion-body{
+  padding: 1rem 1.25rem 0rem 1.25rem!important;
+}
+.gradient{
+  background: rgb(27,209,223);
+  background: linear-gradient(180deg, rgba(27,209,223,1) 4%, rgba(111,215,242,0.7875525210084033) 51%, rgba(255,255,255,0.40940126050420167) 98%);
+color: white;
+height: 250px;
+}
+.subheading{
+  color: darkcyan;
+}
+.flexer{
+  display: flex;
+  flex-direction: column;
+height: 100%;
+  justify-content: center;
+}
